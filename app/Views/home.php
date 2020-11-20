@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html oncontextmenu="return false">
 <head>
 	<?php echo view('includes/header')?>
 </head>
