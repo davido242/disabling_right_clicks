@@ -33,6 +33,8 @@ $routes->setAutoRoute(true);
 $routes->get('index/', 'Home::index');
 $routes->get('help/', 'Home::help');
 $routes->get('disable/', 'Home::disable');
+$routes->get('log/', 'Home::log');
+$routes->get('sign/', 'Home::sign');
 
 /**
  * --------------------------------------------------------------------

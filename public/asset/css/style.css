@@ -1,9 +1,18 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body{
 	background: linear-gradient(to left, #fff000, #000eeeff);
 	color: #fff;
 }
 .footer{
-	background:navy;
+	background: #12122b;
+	width: 100%;
+	line-height: 200px;
+	padding: 10px;
+	margin: 30px 0px;
 }
 .sub-head-container{
 	width: 80%;
@@ -23,26 +32,83 @@ body{
 i {
 	padding: 0 10px;
 }
+.form-div button{
+	background-color: #fff;
+	color: #000;
+}
 .form-div{
 	width: 40%;
-	height: 300px;
+	height: 400px;
 	background-color: #000;
-	margin: 0 30%;
+	margin: 30 30%;
 	border-radius: 10px;
 	padding: 20px;
 	text-align: center;
 }
-.form-stuff{
+.form-dix{
+	background: linear-gradient(to left, #ffddee, #fede);
+	color: #000;
+	width: 80%;
+	/*line-height: 50px;*/
+	height: 350px;
+	margin: 30px 10%;
+}
+.form-stuff, .cent2{
 	margin: 20px 0px;
 }
+.form-stuff input{
+	width: 80%;
+	height: 40px;
+	border-radius: 5px;
+	border: 2px solid navy;
+}
 label{
-	margin: 0 10px;
+	margin: 20px 50px;
+	text-align: left;
+	display: block;
 }
 .form-div-wrap{
 	width: 80%;
 	height: auto;
-	/*background-color: navy;*/
 	border: 2px solid #fff;
 	margin: 0 10%;
 	text-align: center;
+}
+.form-div-wrap2{
+	width: 40%;
+	margin: 0 30%;
+	padding: 10px 0px;
+	border-radius: 5px;
+	border: 10px solid #fff;
+	background-color: rgb(0 0 128 / 51%);
+}
+.cent{
+	text-align: center;
+}
+form{
+	font-size: 1.5em;
+	font-family: sans-serif;
+}
+button{
+	width: 60%;
+	margin: 0 20%;
+	padding: 20px;
+	background: navy;
+	color: #fff;
+	border-radius: 10px;
+	border:none;
+	cursor: pointer;
+	font-size: 1em;
+}
+button:hover{
+	background-color: green;
+	transition: ease-out 1s;
+}
+.form-dix button, h4{
+	margin: 20px 0px;
+	text-decoration: none;
+}
+
+.form-dix a{
+	text-decoration: none;
 }

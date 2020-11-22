@@ -9,11 +9,15 @@
 	<!-- <button onclick="myNewGuy()">Submit</button> -->
 	<div class="form-div-wrap">
 		<h1>My Official Login Page in November</h1>
-		<button type="submit">Click to Login</button>
-		<button type="submit">Click to SignUp</button>
-		<?php echo view('login')?>
-		<h4>Forgot Password</h4>
-		<h4>Or SignUp to get Login Details</h4>
+		<div class="form-div form-dix">
+			<h2>This is OnlineMD Official WebPage</h2>
+			<h2>Earn Money while working from home</h2>
+			<a href="log"><button>Click to Login</button></a>
+			<a href="sign"><button>Click to SignUp</button></a>
+			<?php// echo view('login')?>
+			<h4>Forgot Password</h4>
+			<a href="sign"><h4>Or SignUp to get Login Details</h4></a>
+		</div>
 	</div>
 	
 

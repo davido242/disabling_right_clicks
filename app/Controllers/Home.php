@@ -17,6 +17,16 @@ class Home extends BaseController
 		return view('disable_right_clks');
 	}
 
+	public function log()
+	{
+		return view('login');
+	}
+
+	public function sign()
+	{
+		return view('signup');
+	}
+
 	//--------------------------------------------------------------------
 
 }
