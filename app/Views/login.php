@@ -2,14 +2,12 @@
 <?php echo view('sub_header')?>
 <div class="form-div">
 	<h2>Login</h2>
-	<form action="#" method="GET">
+	<form action="succ" method="GET">
 		<div class="form-stuff">
-			<label for="name">Name:</label>
-			<input type="text" name="name" id="cur" required />
+			<input autocomplete="off" type="text" name="name" id="cur" required />
 		</div>
 		<div class="form-stuff">
-			<label for="name">Password:</label>
-			<input type="Password" name="Password" id="cur" required />
+			<input autocomplete="off" type="Password" name="password" id="cur" required />
 		</div>
 		<button>Submit</button>
 	</form>

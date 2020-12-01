@@ -35,6 +35,7 @@ $routes->get('help/', 'Home::help');
 $routes->get('disable/', 'Home::disable');
 $routes->get('log/', 'Home::log');
 $routes->get('sign/', 'Home::sign');
+$routes->get('succ/', 'Home::succ');
 
 /**
  * --------------------------------------------------------------------

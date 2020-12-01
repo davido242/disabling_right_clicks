@@ -27,6 +27,11 @@ class Home extends BaseController
 		return view('signup');
 	}
 
+	public function succ()
+	{
+		return view('includes/success');
+	}
+
 	//--------------------------------------------------------------------
 
 }

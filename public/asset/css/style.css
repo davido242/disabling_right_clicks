@@ -23,7 +23,10 @@ body{
 .sub-head-container ul li{
 	display: inline-block;
 	line-height: 80px;
-	margin: 0 3%;
+	margin: 10px 3%;
+	/*border-radius: 20px;*/
+	border-right: 2px solid red;
+	padding: 5px;
 }
 .sub-head-container ul li a{
 	color: #fff;
@@ -33,6 +36,10 @@ i {
 	padding: 0 10px;
 }
 .form-div button{
+	background-color: navy;
+	color: #fff;
+}
+.form-div button:hover{
 	background-color: #fff;
 	color: #000;
 }
@@ -61,6 +68,8 @@ i {
 	height: 40px;
 	border-radius: 5px;
 	border: 2px solid navy;
+	padding: 10px;
+	outline: none;
 }
 label{
 	margin: 20px 50px;

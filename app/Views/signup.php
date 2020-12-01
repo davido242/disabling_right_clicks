@@ -4,7 +4,7 @@
 <h2 class="cent cent2">Please Fill the Form to SignUp!</h2>
 <div class="form-div-wrap form-div-wrap2">
 	<h2>SignUp</h2>
-	<form action="#" method="GET">
+	<form action="succ" method="GET">
 		<div class="form-stuff">
 			<label for="name">*First Name:</label>
 			<input type="text" name="name" id="cur" placeholder="Enter First Name" required />
